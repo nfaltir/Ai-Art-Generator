@@ -4,7 +4,7 @@ import requests
 from io import BytesIO
 import json
 import openai
-import creds
+
 
 #streamlit config
 st.set_page_config(page_title="OpenAi Art", page_icon="🎨")
@@ -17,8 +17,8 @@ st.write("<hr><br>", unsafe_allow_html=True)
 
 
 #OpenAI api keys
-
-openai.api_key = creds.api_key
+st.secrets
+openai.api_key = st.secrets["api_key"]
 
 image_desc = st.text_area("Describe image for ai: ")
 

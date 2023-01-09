@@ -27,3 +27,6 @@ streamlit==1.16.0
 1. To run app make sure you get your free openai keys here: https://openai.com/api/, replace 
 2. To run app install required packages `pip3 install -r requirements.txt`
 3. Run app `streamlit run app.py`
+
+
+
