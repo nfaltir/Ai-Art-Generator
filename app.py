@@ -17,7 +17,7 @@ st.write("<hr><br>", unsafe_allow_html=True)
 
 
 #OpenAI api keys
-st.secrets
+
 openai.api_key = st.secrets["api_key"]
 
 image_desc = st.text_area("Describe image for ai: ")
