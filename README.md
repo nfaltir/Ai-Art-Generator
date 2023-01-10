@@ -1,4 +1,4 @@
-# Create you own AI art 
+# Create your own AI art 
 
 <br>
 
